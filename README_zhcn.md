@@ -6,4 +6,4 @@
 
 如果需要反馈，请提交 [issue](https://github.com/TLSseven/AccessibilityBoost/issues/new)
 
-像素魔女PixelMiracle定制游戏端为AccessibilityBoost整合包分支，需要反馈可直接在本仓库提交issue
+**像素魔女PixelMiracle定制游戏端为AccessibilityBoost整合包分支，需要反馈可直接在本仓库提交issue**
