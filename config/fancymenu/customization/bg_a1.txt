@@ -1,0 +1,50 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1750536381007
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:7f5e60a6-21e1-4bdb-8af9-e678dee7ac2f-1750536374799] = [groups:group_1746237547473;group_1748559007442;][instances:]
+  [loading_requirement_group:group_1746237547473] = [group_mode:or]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237547473][req_id:b2ef41f5-cb1f-4a80-9890-31e0d9347bcf-1746237553974] = 5
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237547473][req_id:fbeabced-81b7-45ca-a7c6-62aedaab243f-1746237571839] = 6
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237547473][req_id:777c4f8e-6dfe-4523-b6f4-cf40f5ee5d79-1746237594133] = 7
+  [loading_requirement_group:group_1748559007442] = [group_mode:and]
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if_not][group:group_1748559007442][req_id:9005d5c7-6950-411f-b4bb-de387444ab0d-1748559009151] = 
+  [loading_requirement:fancymenu_loading_requirement_is_multiplayer][requirement_mode:if_not][group:group_1748559007442][req_id:b3352ce3-92b7-4ae1-adbc-a6419630ce51-1748559013263] = 
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/animation/a1.fma
+  slide = false
+  repeat_texture = false
+  parallax = false
+  parallax_intensity = 0.02
+  invert_parallax = false
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+

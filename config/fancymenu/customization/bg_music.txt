@@ -1,0 +1,119 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1750382389389
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  universal_layout_blacklist = receiving_level_screen;progress_screen;generic_dirt_message_screen;connect_screen;drippy_loading_overlay;
+  [loading_requirement_container_meta:f3f4ae50-9723-4ccb-9580-6b717b317d6b-1750382357267] = [groups:group_1748560341348;][instances:]
+  [loading_requirement_group:group_1748560341348] = [group_mode:and]
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if_not][group:group_1748560341348][req_id:ebd65fd5-02d4-4134-9481-56109e52b146-1748560342550] = 
+  [loading_requirement:fancymenu_loading_requirement_is_multiplayer][requirement_mode:if_not][group:group_1748560341348][req_id:9d4b69a0-0b52-4c12-a5d3-99a3d4da0070-1748560347222] = 
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  audio_instance_0 = [source:local]/config/fancymenu/assets/music/summerpockets.wav
+  audio_instance_weight_0 = 1.0
+  play_mode = normal
+  looping = true
+  volume = 1.0
+  sound_source = master
+  element_type = audio_v2
+  instance_identifier = 45ee43df-1e42-4f84-ae22-adcda3930f3e-1747292254473
+  custom_element_layer_name = summerpockets
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2562
+  auto_sizing_base_screen_height = 1377
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -47
+  y = -47
+  width = 100
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 16d294b0-7ec1-4dfa-9037-8c44443f6a4a-1746236822313
+  [loading_requirement_container_meta:16d294b0-7ec1-4dfa-9037-8c44443f6a4a-1746236822313] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #5CA6EFFF
+  layer_hidden_in_editor = false
+}
+
+element {
+  audio_instance_0 = [source:local]/config/fancymenu/assets/sound/lake.wav
+  audio_instance_weight_0 = 1.0
+  play_mode = normal
+  looping = true
+  volume = 0.3
+  sound_source = master
+  element_type = audio_v2
+  instance_identifier = 61751878-cb20-4eec-a543-1565f1404fae-1747292254474
+  custom_element_layer_name = lake
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2562
+  auto_sizing_base_screen_height = 1377
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -184
+  y = -47
+  width = 100
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = e1d1d125-ba9e-4e88-8914-66dfe5d5f4e6-1746236921420
+  [loading_requirement_container_meta:e1d1d125-ba9e-4e88-8914-66dfe5d5f4e6-1746236921420] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #5CA6EFFF
+  layer_hidden_in_editor = false
+}
+

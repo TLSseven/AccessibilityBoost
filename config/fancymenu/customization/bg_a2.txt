@@ -1,0 +1,52 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1750382425974
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:9f4cefc2-feed-4558-8fc2-4dee2374ecdd-1750382357266] = [groups:group_1746237631595;group_1748559661445;][instances:]
+  [loading_requirement_group:group_1746237631595] = [group_mode:or]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237631595][req_id:d1ef2e3d-f3c1-438a-8013-4ece8ea4ba92-1746237634201] = 8
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237631595][req_id:c673d12d-fb94-408d-b6a4-db8524f89757-1746237646632] = 9
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237631595][req_id:cb4f7ed9-7c1a-4601-b025-c5164f80f2b0-1746237655310] = 10
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237631595][req_id:4fde3828-b4c8-40f3-b659-17aef8298fb3-1746237668667] = 11
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237631595][req_id:1929f2f6-23fc-4dc1-a988-ae4cef7d4e80-1746237681700] = 12
+  [loading_requirement_group:group_1748559661445] = [group_mode:and]
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if_not][group:group_1748559661445][req_id:9c93b05f-bf8a-4c7f-b4dc-6681ed353d4b-1748559668719] = 
+  [loading_requirement:fancymenu_loading_requirement_is_multiplayer][requirement_mode:if_not][group:group_1748559661445][req_id:2306cc0c-d33f-4918-afcd-276c48e388c5-1748559672998] = 
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/animation/a2.fma
+  slide = false
+  repeat_texture = false
+  parallax = false
+  parallax_intensity = 0.02
+  invert_parallax = false
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+

@@ -1,0 +1,56 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1750169316804
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:c44e649b-71dc-4423-ab87-6b34b3b3b255-1750169225627] = [groups:group_1746237860859;group_1748559763603;][instances:]
+  [loading_requirement_group:group_1746237860859] = [group_mode:or]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237860859][req_id:b268da3b-db61-4172-ad4f-189cda95d578-1746237861998] = 21
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237860859][req_id:27a68f2e-abeb-45f3-9296-426080ecf447-1746237872356] = 22
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237860859][req_id:4fc1b109-9b57-490b-8c46-11cc16f64c53-1746237878475] = 23
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237860859][req_id:c08f32b6-74bd-487a-bb61-53b461a99553-1746237884470] = 24
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237860859][req_id:71fb2580-8643-4557-b3b6-3727a471c41e-1746237893307] = 0
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237860859][req_id:bd471ca6-d9e3-48dc-be3e-9c104aba1545-1746237902706] = 1
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237860859][req_id:1c76430b-901e-48a7-9b93-275072395988-1746237909074] = 2
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237860859][req_id:fd26eda3-f270-48d9-9544-238379dcbd2c-1746237914116] = 3
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237860859][req_id:c6d4b981-e6c7-49ec-885b-d9c33b9e5a4a-1746237923688] = 4
+  [loading_requirement_group:group_1748559763603] = [group_mode:and]
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if_not][group:group_1748559763603][req_id:070215c6-5a6b-4e79-bdcb-5290c86f5c82-1748559764255] = 
+  [loading_requirement:fancymenu_loading_requirement_is_multiplayer][requirement_mode:if_not][group:group_1748559763603][req_id:c5d3e19a-0984-46a8-8cf0-afef4f6195b7-1748559767576] = 
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/animation/a5.fma
+  slide = false
+  repeat_texture = false
+  parallax = false
+  parallax_intensity = 0.02
+  invert_parallax = false
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
