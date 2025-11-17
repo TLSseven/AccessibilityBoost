@@ -1,0 +1,128 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_6777 {
+}
+
+loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.gui.ClassicConfigGUI$ConfigScreen {
+}
+
+net.minecraft.class_440 {
+}
+
+net.minecraft.class_443 {
+}
+
+net.minecraft.class_458 {
+}
+
+net.minecraft.class_426 {
+}
+
+net.minecraft.class_4288 {
+}
+
+com.blamejared.controlling.client.NewKeyBindsScreen {
+}
+
+net.minecraft.class_404 {
+}
+
+net.minecraft.class_5375 {
+}
+
+net.minecraft.class_4189 {
+}
+
+net.minecraft.class_8219 {
+}
+
+net.minecraft.class_407 {
+}
+
+net.minecraft.class_3928 {
+}
+
+net.minecraft.class_424 {
+}
+
+net.minecraft.class_435 {
+}
+
+net.minecraft.class_412 {
+}
+
+net.minecraft.class_434 {
+}
+
+net.irisshaders.iris.gui.screen.ShaderPackScreen {
+}
+
+net.minecraft.class_525 {
+}
+
+net.minecraft.class_500 {
+}
+
+com.terraformersmc.modmenu.gui.ModsScreen {
+}
+
+net.minecraft.class_526 {
+}
+
+net.minecraft.class_524 {
+}
+
+net.minecraft.class_410 {
+}
+
+net.minecraft.class_422 {
+}
+
+me.khajiitos.servercountryflags.common.screen.ServerMapScreen {
+}
+
+dev.tr7zw.trender.gui.client.AbstractConfigScreen$1 {
+}
+
+traben.entity_texture_features.config.screens.ETFConfigScreenMain {
+}
+
+traben.tconfig.gui.TConfigScreenList {
+}
+
+traben.entity_texture_features.config.screens.ETFConfigScreenWarnings {
+}
+
+ru.vidtu.ias.screen.AccountScreen {
+}
+
+ru.vidtu.ias.screen.AddPopupScreen {
+}
+
+ru.vidtu.ias.screen.MicrosoftCryptPopupScreen {
+}
+
+ru.vidtu.ias.screen.OfflinePopupScreen {
+}
+
+ru.vidtu.ias.screen.DeletePopupScreen {
+}
+
+net.minecraft.class_433 {
+}
+
+net.minecraft.class_8673$class_9058 {
+}
+
+net.minecraft.class_408 {
+}
+

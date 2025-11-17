@@ -1,0 +1,50 @@
+type = user_variables
+
+variable {
+  name = devmode
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = jvmcpu
+  value = 11.1
+  reset_on_launch = false
+}
+
+variable {
+  name = usedram
+  value = 2944
+  reset_on_launch = false
+}
+
+variable {
+  name = oscpu
+  value = 0.0
+  reset_on_launch = false
+}
+
+variable {
+  name = percentram
+  value = 7
+  reset_on_launch = false
+}
+
+variable {
+  name = start
+  value = true
+  reset_on_launch = true
+}
+
+variable {
+  name = start_layout
+  value = 1763154514328
+  reset_on_launch = false
+}
+
+variable {
+  name = nochatreports
+  value = true
+  reset_on_launch = false
+}
+

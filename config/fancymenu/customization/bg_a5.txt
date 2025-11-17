@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1750169316804
+  last_edited_time = 1760811849726
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:c44e649b-71dc-4423-ab87-6b34b3b3b255-1750169225627] = [groups:group_1746237860859;group_1748559763603;][instances:]
+  [loading_requirement_container_meta:962fb33d-4b68-43b4-afc2-67b1c16c1dc5-1760811838799] = [groups:group_1746237860859;group_1748559763603;][instances:]
   [loading_requirement_group:group_1746237860859] = [group_mode:or]
   [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237860859][req_id:b268da3b-db61-4172-ad4f-189cda95d578-1746237861998] = 21
   [loading_requirement:fancymenu_visibility_requirement_is_realtime_hour][requirement_mode:if][group:group_1746237860859][req_id:27a68f2e-abeb-45f3-9296-426080ecf447-1746237872356] = 22
@@ -26,13 +26,15 @@ layout-meta {
 }
 
 menu_background {
-  image_path = [source:local]/config/fancymenu/assets/animation/a5.fma
-  slide = false
-  repeat_texture = false
+  source = [source:local]config/fancymenu/assets/video/5.mp4
+  loop = true
+  volume = 1.0
+  sound_source = master
   parallax = false
   parallax_intensity = 0.02
   invert_parallax = false
-  background_type = image
+  instance_identifier = b9e13bc3-a872-4f5e-aaf3-892f70ba791a-1760811844691
+  background_type = video_mcef
 }
 
 customization {
